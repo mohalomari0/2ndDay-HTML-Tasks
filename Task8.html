@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orange Academy</title>
+</head>
+<body>
+    <h1>Simple Survey</h1>
+    <fieldset>
+        <h2>Part 1: Basic Information</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email">
+    </fieldset>
+    <fieldset>
+        <h2>Part 2: Preferences</h2>
+        <label for="hobby">What is youre favorite hobby?</label>
+        <input type="text" id="hobby" name="hobby_box" rows="4" cols="3" placeholder="E.g,. Reading, sports"><br>
+        <label for="sur">Do you like surveys?</label><br>
+        <input type="radio" id="y" name="srv">
+        <label for="y">Yes</label><br>
+        <input type="radio" id="n" name="srv">
+        <label for="n">No</label><br><br>
+        <label for="chbx">Which topics are you intrested in? (Check all that apply):</label><br>
+        <input type="checkbox" id="tech" name="che">
+        <label for="tech">Technology</label><br>
+        <input type="checkbox" id="spp" name="che">
+        <label for="spp">Sports</label><br>
+        <input type="checkbox" id="mus" name="che">
+        <label for="mus">Music</label><br>
+        <input type="checkbox" id="trv" name="che">
+        <label for="trv">Travel</label><br><br>
+    </fieldset>
+    <fieldset>
+        <h2>Part 3: Comments</h2>
+        <label for="mgbx">Any comments or suggestion:</label><br>
+        <textarea type="text" id="mgbx" name="message_box" rows="4" cols="35"></textarea><br>
+    </fieldset>
+    <input type="submit" id="sub" name="submit_button">
+    <input type="reset" id="reset" name="reset_button">
+    
+</body>
+</html>
